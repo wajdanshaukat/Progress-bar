@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar with Input</title>
+    <link rel="stylesheet" href="progressBar.css">
+</head>
+
+<body>
+    <h1 class="title">Progress Bar</h1>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <div class="controls">
+        <p class="input-percentage">Input percentage: <input type="number" id="percentageInput" min="0" max="100"></p>
+        <button onclick="setProgress()">Set Progress</button>
+    </div>
+    <script src="progressBar.js"></script>
+</body>
+
+</html>
